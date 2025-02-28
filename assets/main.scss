@@ -1,0 +1,27 @@
+---
+---
+@import "minima";
+
+// Couleurs (remplacez par les couleurs du site steinmaths.com)
+$brand-color: #3498db; // Bleu
+$body-background-color: #f5f5f5;
+$text-color: #333;
+
+// Polices (remplacez par les polices du site steinmaths.com)
+$base-font-family: 'Arial', sans-serif;
+$heading-font-family: 'Georgia', serif;
+
+body {
+  background-color: $body-background-color;
+  color: $text-color;
+  font-family: $base-font-family;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font-family;
+  color: $brand-color;
+}
+
+a {
+  color: $brand-color;
+}
